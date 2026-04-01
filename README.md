@@ -26,12 +26,13 @@ intelliflow/
 │   │   └── registry.py       # Task specs, graders (TaskSpec, EpisodeGrader)
 │   ├── api/
 │   │   └── main.py           # FastAPI application, all REST endpoints
+|   |   └── dqn_weights.json  # Pre-trained dqn agent
 │   ├── baseline/
 │   │   └── policies.py       # PressurePolicy, FixedCycle, Random, LLMPolicy
 │   └── viz/
 │       └── dashboard.py      # Live HTML visualisation dashboard
-├── baseline_inference.py      # Standalone CLI baseline evaluation script
-├── openenv.yaml               # OpenEnv specification metadata
+├── inference.py              # Standalone CLI baseline evaluation script
+├── openenv.yaml              # OpenEnv specification metadata
 ├── requirements.txt
 ├── Dockerfile
 └── README.md
