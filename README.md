@@ -1,3 +1,4 @@
+### Team: Neural Ninjas 🥷
 # 🚦 IntelliFlow Urban Traffic Control
 
 > **OpenEnv-compliant reinforcement learning environment for intelligent urban traffic signal optimisation.**  
